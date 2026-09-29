@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pacific Apparel — Custom Apparel Studio, San Diego</title>
-  <meta name="description" content="Embroidery, screen printing, garment printing and promo products for Southern California brands. Made on Mission Blvd, Pacific Beach.">
-  <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="Custom embroidery, screen printing, garment printing and promo products for Southern California brands. Made on Mission Blvd, Pacific Beach.">
+  <meta name="theme-color" content="#fbfaf7">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -23,7 +23,6 @@
   </div>
 
   <div class="cursor" aria-hidden="true"><span class="cursor__label">View</span></div>
-  <div class="grain" aria-hidden="true"></div>
 
   <!-- Nav -->
   <header class="nav">
@@ -35,56 +34,73 @@
     </a>
     <nav class="nav__links" aria-label="Primary">
       <a href="#services">Services</a>
+      <a href="#products">Products</a>
       <a href="#process">Process</a>
       <a href="#work">Work</a>
-      <a href="#lab">Logo Lab</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a href="#quote" class="btn btn--pill magnetic"><span>Start a project</span></a>
+    <a href="#quote" class="btn btn--pill magnetic"><span>Get a quote</span></a>
     <button class="nav__burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
   </header>
 
   <div class="mobile-menu" aria-hidden="true">
     <a href="#services">Services</a>
+    <a href="#products">Products</a>
     <a href="#process">Process</a>
     <a href="#work">Work</a>
-    <a href="#lab">Logo Lab</a>
-    <a href="#quote">Start a project</a>
+    <a href="#faq">FAQ</a>
+    <a href="#quote">Get a quote</a>
   </div>
 
   <main id="top">
 
     <!-- HERO -->
     <section class="hero">
-      <div class="hero__eyebrow mono reveal-up">
-        <span class="dot"></span> Custom apparel studio — Pacific Beach, San Diego
-      </div>
-      <h1 class="hero__title">
-        <span class="line"><span class="word">Your</span> <span class="word">brand,</span></span>
-        <span class="line line--indent"><span class="word">stitched</span></span>
-        <span class="line"><span class="word">to</span> <em class="word serif">last.</em>
-          <span class="hero__stamp" aria-hidden="true">
-            <svg viewBox="0 0 120 120">
-              <defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
-              <text><textPath href="#circ">EMBROIDERY • SCREEN PRINT • GARMENT PRINT • PROMO • </textPath></text>
-            </svg>
-            <span class="hero__stamp-core">SD</span>
-          </span>
-        </span>
-      </h1>
-
-      <svg class="hero__thread" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true">
-        <path d="M-20 220 C 200 80, 360 300, 620 170 S 1040 20, 1200 150 S 1400 240, 1470 120" />
-      </svg>
-
-      <div class="hero__bottom">
+      <div class="hero__copy">
+        <div class="hero__eyebrow mono reveal-up">
+          <span class="dot"></span> Custom apparel studio · San Diego, CA
+        </div>
+        <h1 class="hero__title">
+          <span class="line"><span class="word">Your</span> <span class="word">logo,</span></span>
+          <span class="line"><span class="word">on</span> <span class="word">apparel</span></span>
+          <span class="line"><span class="word">people</span> <em class="word serif">actually wear.</em></span>
+        </h1>
         <p class="hero__sub reveal-up">
-          Embroidery, screen printing, garment printing and promo products for Southern California brands that refuse to look generic.
+          Custom embroidery, screen printing and promo products for businesses, teams and events across Southern California.
+          <strong>From 12 pieces, ready in 7–10 working days.</strong>
         </p>
         <div class="hero__ctas reveal-up">
-          <a href="#quote" class="btn btn--primary magnetic"><span>Start a project</span><i>→</i></a>
-          <a href="#work" class="btn btn--ghost magnetic"><span>See the work</span></a>
+          <a href="#quote" class="btn btn--primary magnetic"><span>Get a free quote</span><i>→</i></a>
+          <a href="#work" class="btn btn--ghost magnetic"><span>See our work</span></a>
         </div>
+        <ul class="hero__services reveal-up" aria-label="Services">
+          <li><a href="#services">Embroidery</a></li>
+          <li><a href="#services">Screen Print</a></li>
+          <li><a href="#services">Garment Print</a></li>
+          <li><a href="#services">Promo Products</a></li>
+        </ul>
+      </div>
+
+      <div class="hero__visual" aria-label="Examples of our work">
+        <figure class="hv hv--main">
+          <img src="img/crack-shack.webp" alt="Embroidered Crack Shack trucker cap on a display shelf" width="800" height="803">
+          <figcaption class="mono">Embroidered caps</figcaption>
+        </figure>
+        <figure class="hv hv--top">
+          <img src="img/wavehouse.webp" alt="Wavehouse San Diego logo being embroidered" width="750" height="750">
+          <figcaption class="mono">Embroidery</figcaption>
+        </figure>
+        <figure class="hv hv--bottom">
+          <img src="img/moto-print.webp" alt="Full color motorcycle club print on a grey tee" width="800" height="809">
+          <figcaption class="mono">Garment print</figcaption>
+        </figure>
+        <span class="hero__stamp" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+            <text><textPath href="#circ">MADE IN SAN DIEGO • PACIFIC BEACH • </textPath></text>
+          </svg>
+          <span class="hero__stamp-core">SD</span>
+        </span>
       </div>
 
       <ul class="hero__facts mono reveal-up">
@@ -94,6 +110,19 @@
       </ul>
     </section>
 
+    <!-- MARQUEE -->
+    <section class="marquee" aria-label="Companies we work with">
+      <div class="marquee__label mono">Trusted by</div>
+      <div class="marquee__track">
+        <div class="marquee__row">
+          <span>USS Midway Museum</span><i>✺</i><span>Cushman &amp; Wakefield</span><i>✺</i><span>Karl Strauss Brewing</span><i>✺</i><span>NRC Environmental</span><i>✺</i><span>Solar Gard Saint-Gobain</span><i>✺</i><span>Hill Construction</span><i>✺</i><span>Café Sevilla</span><i>✺</i>
+        </div>
+        <div class="marquee__row" aria-hidden="true">
+          <span>USS Midway Museum</span><i>✺</i><span>Cushman &amp; Wakefield</span><i>✺</i><span>Karl Strauss Brewing</span><i>✺</i><span>NRC Environmental</span><i>✺</i><span>Solar Gard Saint-Gobain</span><i>✺</i><span>Hill Construction</span><i>✺</i><span>Café Sevilla</span><i>✺</i>
+        </div>
+      </div>
+    </section>
+
     <!-- EXPANDING IMAGE -->
     <section class="expand" aria-label="Made on Mission Blvd">
       <div class="expand__sticky">
@@ -101,28 +130,15 @@
           <img src="img/karl-strauss.webp" alt="Karl Strauss logo being embroidered on a blue hoop" width="2000" height="1500">
         </figure>
         <div class="expand__caption">
-          <span class="mono">(01) — The shop</span>
+          <span class="mono">The shop</span>
           <h2>Made on<br><em class="serif">Mission Blvd.</em></h2>
-        </div>
-      </div>
-    </section>
-
-    <!-- MARQUEE -->
-    <section class="marquee" aria-label="Brands we've stitched for">
-      <div class="marquee__label mono">Stitched for</div>
-      <div class="marquee__track">
-        <div class="marquee__row">
-          <span>Karl Strauss</span><i>✺</i><span>Wavehouse San Diego</span><i>✺</i><span>Crack Shack</span><i>✺</i><span>Rabbit Hole</span><i>✺</i><span>San Diego Creative Media</span><i>✺</i><span>Lilli</span><i>✺</i>
-        </div>
-        <div class="marquee__row" aria-hidden="true">
-          <span>Karl Strauss</span><i>✺</i><span>Wavehouse San Diego</span><i>✺</i><span>Crack Shack</span><i>✺</i><span>Rabbit Hole</span><i>✺</i><span>San Diego Creative Media</span><i>✺</i><span>Lilli</span><i>✺</i>
         </div>
       </div>
     </section>
 
     <!-- STATEMENT -->
     <section class="statement">
-      <span class="mono section-tag">(02) — Why us</span>
+      <span class="mono section-tag">(01) — Why us</span>
       <p class="statement__text" data-split-words>
         Your logo is a promise. We turn it into something people actually want to wear — caps that get borrowed, tees that get stolen, polos that make a crew look like a team. That's been the job for Southern California brands for over a decade.
       </p>
@@ -131,7 +147,7 @@
     <!-- SERVICES -->
     <section class="services" id="services">
       <div class="section-head">
-        <span class="mono section-tag">(03) — Services</span>
+        <span class="mono section-tag">(02) — Services</span>
         <h2 class="section-title">Four ways to<br>wear a <em class="serif">brand.</em></h2>
       </div>
 
@@ -141,41 +157,94 @@
           <h3 class="svc__name">Embroidery</h3>
           <p class="svc__desc">Thread that outlives the trend. Caps, polos, jackets and beanies — digitized for crisp, dense detail.</p>
           <span class="svc__spec mono">Min 12 pcs</span>
-          <img class="svc__img-mobile" src="img/wavehouse.webp" alt="Wavehouse San Diego logo embroidered in white on blue" loading="lazy">
+          <img class="svc__img-mobile" src="img/wavehouse.webp" alt="Wavehouse San Diego logo embroidered in white on blue" width="750" height="750" loading="lazy">
         </li>
         <li class="svc" data-img="img/be-different.webp">
           <span class="svc__num mono">02</span>
           <h3 class="svc__name">Screen Print</h3>
-          <p class="svc__desc">Bold ink, built for volume. The classic for team tees, events and merch drops that need to hit hard.</p>
+          <p class="svc__desc">Our award-winning screen print: bold ink built for volume — team tees, events and merch drops that need to hit hard.</p>
           <span class="svc__spec mono">Min 48 pcs</span>
-          <img class="svc__img-mobile" src="img/be-different.webp" alt="Screen printed blue tees on hangers" loading="lazy">
+          <img class="svc__img-mobile" src="img/be-different.webp" alt="Screen printed blue tees on hangers" width="800" height="803" loading="lazy">
         </li>
         <li class="svc" data-img="img/moto-print.webp">
           <span class="svc__num mono">03</span>
           <h3 class="svc__name">Garment Print</h3>
-          <p class="svc__desc">Full color, every detail. Photographic artwork and gradients printed straight onto the garment.</p>
-          <span class="svc__spec mono">No color limits</span>
-          <img class="svc__img-mobile" src="img/moto-print.webp" alt="Full color motorcycle club print on a grey tee" loading="lazy">
+          <p class="svc__desc">Full color, every detail. Eco-friendly water-based ink with a soft hand feel — perfect for photos, gifts and events.</p>
+          <span class="svc__spec mono">No minimums</span>
+          <img class="svc__img-mobile" src="img/moto-print.webp" alt="Full color motorcycle club print on a grey tee" width="800" height="809" loading="lazy">
         </li>
         <li class="svc" data-img="img/promo-tote.webp">
           <span class="svc__num mono">04</span>
           <h3 class="svc__name">Promo Products</h3>
           <p class="svc__desc">Your brand, beyond the tee. Totes, drinkware, caps and giveaways people keep instead of toss.</p>
           <span class="svc__spec mono">Full catalog</span>
-          <img class="svc__img-mobile" src="img/promo-tote.webp" alt="Printed tote bag with flag graphic" loading="lazy">
+          <img class="svc__img-mobile" src="img/promo-tote.webp" alt="Printed tote bag with flag graphic" width="800" height="803" loading="lazy">
         </li>
       </ul>
       <div class="svc-float" aria-hidden="true"><img src="img/wavehouse.webp" alt=""></div>
     </section>
 
+
+    <!-- PRODUCTS -->
+    <section class="products" id="products">
+      <div class="products__head">
+        <div>
+          <span class="mono section-tag">(03) — Products</span>
+          <h2 class="section-title">Pick the blank.<br><em class="serif">We'll brand it.</em></h2>
+        </div>
+        <p>Tees, caps, polos, workwear and nearly a million promo products — customized in our Pacific Beach shop.</p>
+      </div>
+
+      <div class="p-grid">
+        <a class="p-card" href="products.html#apparel">
+          <div class="p-card__img" style="--ar: 960 / 640"><img src="img/p-tees.webp" alt="Man and woman in black and white crew neck tees" width="960" height="640" loading="lazy"></div>
+          <div class="p-card__body">
+            <h3>Classic Tees</h3>
+            <p class="mono">Screen print · Garment print · Embroidery</p>
+          </div>
+        </a>
+        <a class="p-card" href="products.html#apparel">
+          <div class="p-card__img" style="--ar: 960 / 640"><img src="img/p-long-sleeve.webp" alt="Man and woman in black and white long sleeve tees" width="960" height="640" loading="lazy"></div>
+          <div class="p-card__body">
+            <h3>Long Sleeves</h3>
+            <p class="mono">Screen print · Garment print</p>
+          </div>
+        </a>
+        <a class="p-card" href="products.html#apparel">
+          <div class="p-card__img" style="--ar: 960 / 640"><img src="img/p-tanks.webp" alt="Man and woman in blue and black tank tops" width="960" height="640" loading="lazy"></div>
+          <div class="p-card__body">
+            <h3>Tank Tops</h3>
+            <p class="mono">Screen print · Garment print</p>
+          </div>
+        </a>
+        <a class="p-card" href="products.html#apparel">
+          <div class="p-card__img" style="--ar: 960 / 640"><img src="img/p-acid-wash.webp" alt="Acid wash tee printed with a La Jolla Baseball logo" width="960" height="640" loading="lazy"></div>
+          <div class="p-card__body">
+            <h3>Acid Wash Tees</h3>
+            <p class="mono">Screen print</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="p-cats">
+        <span class="mono">Also:</span>
+        <a href="products.html#headwear">Caps &amp; Hats</a>
+        <a href="products.html#workwear">Polos &amp; Uniforms</a>
+        <a href="products.html#workwear">Workwear &amp; Jackets</a>
+        <a href="products.html#bags">Totes &amp; Aprons</a>
+        <a href="products.html#promo">Promo Products</a>
+        <a href="products.html" class="btn btn--dark magnetic"><span>View all products</span><i>→</i></a>
+      </div>
+    </section>
+
     <!-- PROCESS -->
-    <section data-nav-light class="process" id="process">
+    <section class="process" id="process">
       <div class="process__media">
         <div class="process__frame">
-          <img class="is-active" src="img/lilli-1.webp" alt="Garment clamped in an embroidery hoop" loading="lazy">
-          <img src="img/lilli-2.webp" alt="Lilli logo being stitched" loading="lazy">
-          <img src="img/lilli-3.webp" alt="Embroidery machine finishing the Lilli logo" loading="lazy">
-          <img src="img/lilli-4.webp" alt="Finished Lilli embroidery on a white shirt" loading="lazy">
+          <img class="is-active" src="img/lilli-1.webp" alt="Garment clamped in an embroidery hoop" width="480" height="640" loading="lazy">
+          <img src="img/lilli-2.webp" alt="Lilli logo being stitched" width="480" height="640" loading="lazy">
+          <img src="img/lilli-3.webp" alt="Embroidery machine finishing the Lilli logo" width="480" height="640" loading="lazy">
+          <img src="img/lilli-4.webp" alt="Finished Lilli embroidery on a white shirt" width="480" height="640" loading="lazy">
           <div class="process__progress"><span></span></div>
         </div>
       </div>
@@ -208,7 +277,7 @@
     </section>
 
     <!-- WORK -->
-    <section data-nav-light class="work" id="work">
+    <section class="work" id="work">
       <div class="work__head">
         <span class="mono section-tag">(05) — Selected work</span>
         <h2 class="section-title">Real brands.<br><em class="serif">Real thread.</em></h2>
@@ -216,35 +285,35 @@
       </div>
       <div class="work__viewport">
         <div class="work__track">
-          <figure class="card card--tall" data-cursor="View">
-            <img src="img/wavehouse.webp" alt="Wavehouse San Diego embroidery" loading="lazy">
+          <figure class="card" style="--ar: 750 / 750" data-cursor="View">
+            <div class="card__img"><img src="img/wavehouse.webp" alt="Wavehouse San Diego embroidery" width="750" height="750" loading="lazy"></div>
             <figcaption><b>Wavehouse San Diego</b><span>Embroidery</span></figcaption>
           </figure>
-          <figure class="card card--wide" data-cursor="View">
-            <img src="img/sd-creative-media.webp" alt="San Diego Creative Media acid wash tee" loading="lazy">
+          <figure class="card" style="--ar: 960 / 640" data-cursor="View">
+            <div class="card__img"><img src="img/sd-creative-media.webp" alt="San Diego Creative Media acid wash tee" width="960" height="640" loading="lazy"></div>
             <figcaption><b>San Diego Creative Media</b><span>Print · Acid wash tee</span></figcaption>
           </figure>
-          <figure class="card" data-cursor="View">
-            <img src="img/rabbit-hole.webp" alt="The Rabbit Hole logo being embroidered" loading="lazy">
+          <figure class="card" style="--ar: 598 / 593" data-cursor="View">
+            <div class="card__img"><img src="img/rabbit-hole.webp" alt="The Rabbit Hole logo being embroidered" width="598" height="593" loading="lazy"></div>
             <figcaption><b>The Rabbit Hole</b><span>Embroidery</span></figcaption>
           </figure>
-          <figure class="card card--tall" data-cursor="View">
-            <img src="img/crack-shack.webp" alt="Crack Shack trucker cap on display" loading="lazy">
-            <figcaption><b>Crack Shack</b><span>Embroidered caps</span></figcaption>
-          </figure>
-          <figure class="card" data-cursor="View">
-            <img src="img/automotive-polo.webp" alt="Embroidered dealership polo" loading="lazy">
-            <figcaption><b>Dealership crew</b><span>Embroidered polos</span></figcaption>
-          </figure>
-          <figure class="card card--wide" data-cursor="View">
-            <img src="img/lifestyle.webp" alt="Two women wearing custom branded apparel outdoors" loading="lazy">
-            <figcaption><b>Event crew</b><span>Custom tees & hoodies</span></figcaption>
-          </figure>
-          <figure class="card card--tall" data-cursor="View">
-            <img src="img/lilli-3.webp" alt="Lilli logo embroidery" loading="lazy">
+          <figure class="card" style="--ar: 480 / 640" data-cursor="View">
+            <div class="card__img"><img src="img/lilli-3.webp" alt="Lilli logo embroidery" width="480" height="640" loading="lazy"></div>
             <figcaption><b>Lilli</b><span>Embroidery</span></figcaption>
           </figure>
-          <a class="card card--cta" href="#quote">
+          <figure class="card" style="--ar: 800 / 803" data-cursor="View">
+            <div class="card__img"><img src="img/crack-shack.webp" alt="Crack Shack trucker cap on display" width="800" height="803" loading="lazy"></div>
+            <figcaption><b>Crack Shack</b><span>Embroidered caps</span></figcaption>
+          </figure>
+          <figure class="card" style="--ar: 1400 / 934" data-cursor="View">
+            <div class="card__img"><img src="img/lifestyle.webp" alt="Two women wearing custom branded apparel outdoors" width="1400" height="934" loading="lazy"></div>
+            <figcaption><b>Event crew</b><span>Custom tees & hoodies</span></figcaption>
+          </figure>
+          <figure class="card" style="--ar: 598 / 595" data-cursor="View">
+            <div class="card__img"><img src="img/automotive-polo.webp" alt="Embroidered dealership polo" width="598" height="595" loading="lazy"></div>
+            <figcaption><b>Dealership crew</b><span>Embroidered polos</span></figcaption>
+          </figure>
+          <a class="card card--cta" href="#quote" style="--ar: 3 / 4">
             <span class="mono">Your brand here</span>
             <strong>Let's make<br>the next one<br><em class="serif">yours.</em></strong>
             <i>→</i>
@@ -253,125 +322,29 @@
       </div>
     </section>
 
-    <!-- LOGO LAB -->
-    <section class="lab" id="lab">
-      <div class="lab__intro">
-        <span class="mono section-tag">(06) — Logo Lab</span>
-        <h2 class="section-title">See it on a shirt<br><em class="serif">before you order.</em></h2>
-        <p>Drop in your logo — or just type your brand name — and try colors, placement and technique live.</p>
-
-        <div class="lab__controls">
-          <div class="ctl">
-            <label class="mono" for="lab-text">Brand name</label>
-            <input id="lab-text" type="text" maxlength="18" value="YOUR BRAND" autocomplete="off">
-          </div>
-          <div class="ctl">
-            <span class="mono">Or upload a logo</span>
-            <label class="upload">
-              <input id="lab-file" type="file" accept="image/png,image/jpeg,image/svg+xml,image/webp">
-              <span>Choose file <small>PNG with transparent background works best</small></span>
-            </label>
-          </div>
-          <div class="ctl">
-            <span class="mono">Garment color</span>
-            <div class="swatches" role="radiogroup" aria-label="Garment color">
-              <button class="swatch is-active" style="--c:#f4f1ea" data-color="#f4f1ea" data-ink="#11151a" aria-label="Natural"></button>
-              <button class="swatch" style="--c:#15171b" data-color="#15171b" data-ink="#f4f1ea" aria-label="Black"></button>
-              <button class="swatch" style="--c:#1f3a5f" data-color="#1f3a5f" data-ink="#f4f1ea" aria-label="Navy"></button>
-              <button class="swatch" style="--c:#8a8f94" data-color="#8a8f94" data-ink="#11151a" aria-label="Heather grey"></button>
-              <button class="swatch" style="--c:#c65a2e" data-color="#c65a2e" data-ink="#f4f1ea" aria-label="Rust"></button>
-              <button class="swatch" style="--c:#3f5a3c" data-color="#3f5a3c" data-ink="#f4f1ea" aria-label="Forest"></button>
-            </div>
-          </div>
-          <div class="ctl ctl--row">
-            <div>
-              <span class="mono">Technique</span>
-              <div class="seg" data-group="tech">
-                <button class="is-active" data-val="embroidery">Embroidery</button>
-                <button data-val="print">Print</button>
-              </div>
-            </div>
-            <div>
-              <span class="mono">Placement</span>
-              <div class="seg" data-group="place">
-                <button class="is-active" data-val="chest">Left chest</button>
-                <button data-val="center">Full front</button>
-              </div>
-            </div>
-          </div>
-          <a href="#quote" class="btn btn--primary magnetic" id="lab-cta"><span>Quote this design</span><i>→</i></a>
-        </div>
-      </div>
-
-      <div class="lab__stage">
-        <div class="lab__glow"></div>
-        <svg class="tee" viewBox="0 0 500 540" role="img" aria-label="T-shirt mockup with your logo">
-          <defs>
-            <filter id="f-stitch" x="-20%" y="-20%" width="140%" height="140%">
-              <feTurbulence type="fractalNoise" baseFrequency="0.9 0.06" numOctaves="2" seed="4" result="grain"/>
-              <feDisplacementMap in="SourceGraphic" in2="grain" scale="2.2" xChannelSelector="R" yChannelSelector="G" result="rough"/>
-              <feGaussianBlur in="rough" stdDeviation="0.45" result="soft"/>
-              <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.2 0.62" result="lines"/>
-              <feComposite in="lines" in2="soft" operator="in" result="shade"/>
-              <feGaussianBlur in="soft" stdDeviation="1.3" result="bump"/>
-              <feSpecularLighting in="bump" surfaceScale="2.6" specularConstant="0.6" specularExponent="16" lighting-color="#ffffff" result="spec">
-                <feDistantLight azimuth="235" elevation="50"/>
-              </feSpecularLighting>
-              <feComposite in="spec" in2="soft" operator="in" result="specIn"/>
-              <feMerge result="stitched"><feMergeNode in="soft"/><feMergeNode in="shade"/><feMergeNode in="specIn"/></feMerge>
-              <feDropShadow in="stitched" dx="0.6" dy="1.2" stdDeviation="0.8" flood-opacity="0.45"/>
-            </filter>
-            <filter id="f-print" x="-10%" y="-10%" width="120%" height="120%">
-              <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="1" seed="9" result="n"/>
-              <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 0.55" result="speck"/>
-              <feComposite in="SourceGraphic" in2="speck" operator="out" result="worn"/>
-              <feComponentTransfer in="worn"><feFuncA type="linear" slope="0.94"/></feComponentTransfer>
-            </filter>
-            <linearGradient id="g-fold" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0" stop-color="#000" stop-opacity=".22"/>
-              <stop offset=".18" stop-color="#000" stop-opacity="0"/>
-              <stop offset=".5" stop-color="#fff" stop-opacity=".07"/>
-              <stop offset=".82" stop-color="#000" stop-opacity="0"/>
-              <stop offset="1" stop-color="#000" stop-opacity=".24"/>
-            </linearGradient>
-            <radialGradient id="g-light" cx=".42" cy=".3" r=".75">
-              <stop offset="0" stop-color="#fff" stop-opacity=".16"/>
-              <stop offset="1" stop-color="#000" stop-opacity=".14"/>
-            </radialGradient>
-            <clipPath id="tee-clip"><path id="tee-shape" d="M170 40 C188 58 214 68 250 68 C286 68 312 58 330 40 L420 76 C438 83 450 96 456 114 L486 200 L412 230 L394 186 L394 500 C394 512 386 520 374 520 L126 520 C114 520 106 512 106 500 L106 186 L88 230 L14 200 L44 114 C50 96 62 83 80 76 Z"/></clipPath>
-          </defs>
-          <g clip-path="url(#tee-clip)">
-            <rect class="tee__base" width="500" height="540" fill="#f4f1ea"/>
-            <rect width="500" height="540" fill="url(#g-light)"/>
-            <rect width="500" height="540" fill="url(#g-fold)"/>
-            <path d="M106 186 L112 250" stroke="#000" stroke-opacity=".12" stroke-width="2"/>
-            <path d="M394 186 L388 250" stroke="#000" stroke-opacity=".12" stroke-width="2"/>
-          </g>
-          <path d="M170 40 C188 58 214 68 250 68 C286 68 312 58 330 40 C314 76 288 92 250 92 C212 92 186 76 170 40 Z" class="tee__collar"/>
-          <path d="M170 40 C186 76 212 92 250 92 C288 92 314 76 330 40" fill="none" stroke="#000" stroke-opacity=".18" stroke-width="2" stroke-dasharray="3 4"/>
-          <use href="#tee-shape" fill="none" stroke="#000" stroke-opacity=".18" stroke-width="1.5"/>
-          <g class="tee__art" filter="url(#f-stitch)">
-            <text class="tee__text" x="250" y="250" text-anchor="middle" dominant-baseline="middle">YOUR BRAND</text>
-            <image class="tee__img" href="" x="0" y="0" width="0" height="0" preserveAspectRatio="xMidYMid meet" style="display:none"/>
-          </g>
-        </svg>
-        <div class="lab__tag mono"><span data-lab-tech>Embroidery</span> · <span data-lab-place>Left chest</span></div>
-      </div>
-    </section>
-
     <!-- TESTIMONIAL -->
     <section class="quote-block">
-      <span class="mono section-tag">(07) — Word of mouth</span>
+      <span class="mono section-tag">(06) — Word of mouth</span>
       <blockquote>
         <p data-split-words>“We have our company apparel embroidered with our logo at Pacific Apparel and it comes out perfect every time — efficient, very well-made and handled with professional care and precision each time.”</p>
         <footer class="mono">— Lisa G., long-time client</footer>
       </blockquote>
+      <div class="quote-more">
+        <figure>
+          <p>“Pacific Apparel is consistently providing us with outstanding quality and excellent customer service every single time.”</p>
+          <figcaption class="mono">Tina Turlack — Cushman &amp; Wakefield</figcaption>
+        </figure>
+        <figure>
+          <p>“Eight years of doing business with Pacific Apparel. Friendly, responsive and quality work, no doubt!”</p>
+          <figcaption class="mono">Aaron Smith — NRC Environmental Services</figcaption>
+        </figure>
+      </div>
     </section>
 
     <!-- QUOTE BUILDER -->
     <section class="builder" id="quote">
       <div class="builder__head">
-        <span class="mono section-tag">(08) — Start a project</span>
+        <span class="mono section-tag">(07) — Get a quote</span>
         <h2 class="section-title">Tell us what<br>you're <em class="serif">making.</em></h2>
         <p>Takes 30 seconds. We reply with pricing and a proof plan — usually same business day.</p>
       </div>
@@ -412,7 +385,7 @@
         </fieldset>
 
         <div class="builder__submit">
-          <button type="submit" class="btn btn--primary btn--xl magnetic"><span>Send my request</span><i>→</i></button>
+          <button type="submit" class="btn btn--dark btn--xl magnetic"><span>Send my request</span><i>→</i></button>
           <p class="mono builder__msg" role="status"></p>
         </div>
       </form>
@@ -421,7 +394,7 @@
     <!-- FAQ -->
     <section class="faq" id="faq">
       <div class="section-head">
-        <span class="mono section-tag">(09) — FAQ</span>
+        <span class="mono section-tag">(08) — FAQ</span>
         <h2 class="section-title">Good <em class="serif">questions.</em></h2>
       </div>
       <div class="faq__list">
